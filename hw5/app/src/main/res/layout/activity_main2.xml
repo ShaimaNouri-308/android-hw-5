@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:background="@drawable/image1" >
+
+    <TextView
+        android:id="@+id/cv"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:text="Your CV"
+        android:textSize="35sp"
+        android:textColor="#f7f7f7"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:text="Name"
+        android:textSize="30sp"
+        android:textColor="#f7f7f7"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:id="@+id/age"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="Age"
+        android:textSize="30sp"
+        android:textColor="#f7f7f7"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:id="@+id/job"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="Job"
+        android:textSize="30sp"
+        android:textColor="#f7f7f7"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:id="@+id/phonenumber"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:text="Phone Number"
+        android:textSize="30sp"
+        android:textColor="#f7f7f7"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="20dp" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="Email"
+        android:textSize="30sp"
+        android:textColor="#f7f7f7"
+        android:layout_marginTop="410dp"
+        android:layout_marginLeft="20dp"/>
+
+
+    <EditText
+        android:id="@+id/n"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="#07031a"
+        android:background="#f7f7f7"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="275dp"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/a"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="#07031a"
+        android:background="#f7f7f7"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="275dp"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/j"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="#07031a"
+        android:background="#f7f7f7"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="275dp"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/p"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="#07031a"
+        android:background="#f7f7f7"
+        android:layout_marginTop="340dp"
+        android:layout_marginLeft="275dp"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/e"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="#07031a"
+        android:background="#f7f7f7"
+        android:layout_marginTop="410dp"
+        android:layout_marginLeft="275dp"
+        android:textSize="20dp"/>
+</RelativeLayout>
